@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './Components/Header'
-import Landing from './Components/Landing'
-import About from './Components/About'
-import Music from './Components/Music'
-import Portfolio from './Components/Portfolio'
-import Contact from './Components/Contact'
+import Header from './Components/Header/Header'
+import Landing from './Components/Landing/Landing'
+import About from './Components/About/About'
+import Music from './Components/Music/Music'
+import Portfolio from './Components/Portfolio/Portfolio'
+import Contact from './Components/Contact/Contact'
 import './App.css';
 
 function App() {

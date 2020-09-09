@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.header-container{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Karla;
+}
+
+.header-name-container{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav-links{
+    height: auto;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 200;
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+    /* animation-name: strike; */
+}
+
+h3:hover {
+  position: relative;
+  cursor: pointer;
+  
+}
+h3:hover::after {
+  position: absolute;
+  content: ' ';
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: aliceblue;
+  animation-name: strike;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; 
+}
+
+label {
+  /* margin: 0 20px 0 0; */
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  float: right;
+}
+
+#toggle{
+  display: none;
+}
+
+
+
+@keyframes strike{
+    0%   { width : 0; }
+    25%  {width: 25%;}
+    50%  {width: 50%;}
+    100% { width: 100%; }
+  }
+
+  @media only screen and (max-width: 500px){
+
+    .header-name-container{
+      height: 40px;
+      width: 40px;
+      margin-left: 20px;
+    }
+
+    label {
+      display: block;
+      cursor: pointer;
+      margin-right: 20px;
+    }
+    .header-nav-links{
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      display: none;
+    }
+
+    .header-nav-links h3{
+      display: block;
+      border-bottom: 1px solid #EAEAEB;
+      margin: 0;
+    }
+
+      #toggle:checked ~ .header-nav-links h3{
+        display: block;
+      }
+  }
