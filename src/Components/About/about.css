@@ -1,5 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
 .about-container{
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
-    background-color: rgb(134, 180, 241);
+    padding: 25px 0 0 75px;
+    animation-name: about-page-load;
+    animation-duration: 4s;
+    font-family: Karla;
+}
+
+.about-bio{
+    height: 400px;
+    width: 500px;
+    text-align: start;
+}
+
+.about-bio span{
+    font-weight: 700;
+}
+
+.about-bio a {
+    font-weight: 700;
+}
+
+#spotify-link{
+    color: rgb(26,215,96);
+}
+
+/* #the-drop-link{
+    color: rgb(255, 64, 96);
+} */
+
+#github-link{
+    color: rgb(90,86,214);
+}
+
+@keyframes about-page-load{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@media(max-width: 500px){
+    .about-container{
+        height: auto;
+        width: 100vw;
+        padding-left: 10px;
+        font-family: Karla;
+        animation-name: about-page-load;
+        animation-duration: 4s;
+    }
+    .about-bio{
+        height: auto;
+        width: 370px;
+        text-align: start;
+        word-wrap: break-word;
+        /* padding-right: 25px; */
+        overflow: scroll;
+    }
+
+    .about-bio p{
+        font-size: 18px;
+    }
+
+    .about-bio span{
+        font-weight: 700;
+    }
+
+    .about-bio a {
+        font-weight: 700;
+    }
+
+    @keyframes about-page-load{
+        0% {opacity: 0;}
+        100% {opacity: 1;}
+    }
 }

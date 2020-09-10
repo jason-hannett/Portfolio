@@ -1,5 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
 .portfolio-container{
     height: 90vh;
     width: 100vw;
-    background-color: rgb(176, 206, 246);
+    font-family: Karla;
+}
+
+.portfolio-header{
+    width: 100vw;
+    height: 45vh;
+}
+
+.hooligin-web-project{
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+.hooligin-web-image{
+    height: 300px;
+    width: 300px;
+    background-image: url('./Screen\ Shot\ 2020-09-09\ at\ 7.25.23\ PM.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 100px;
+    margin-top: 50px;
 }

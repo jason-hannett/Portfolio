@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 .landing-container{
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -10,13 +10,16 @@
 }
 
 .landing-portrait{
-    height: 70vh;
-    width: 30vw;
+    height: 60vh;
+    width: 300px;
     /* background-color: aliceblue; */
     background-image: url('./IMG_5638.JPG');
     background-repeat: no-repeat;
     background-size: contain;
-    margin-right: 50px;
+    margin-left: 50;
+    margin-top: 222px;
+    animation-name: image;
+    animation-duration:4s;
 }
 
 .landing-about-container{
@@ -30,6 +33,8 @@
     justify-content: flex-start;
     background-color: white;
     flex-wrap: wrap;
+    -webkit-animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .landing-name{
     font-size: 40px;
@@ -79,6 +84,31 @@ a {
     color: orange;
 }
   
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
   @keyframes strike{
       0%   { width : 0; }
       25%  {width: 25%;}
@@ -86,35 +116,41 @@ a {
       100% { width: 100%; }
     }
 
-    
+    @keyframes image{
+      0%   { opacity : 0; }
+      100% { opacity: 1; }
+    }
 
     @media(max-width: 500px){
 
         .landing-container{
             display: block;
+            height: 70vh;
+            width: 100vw;
         }
 
         .landing-about-container{
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 100%;
+            width: 100vw;
             height: 400px;
         }
 
         .landing-title{
-            font-size: 45px;
+            font-size: 40px;
             padding-top: 30px;
         }
 
         .landing-about{
-            display: none;
+           width: 300px;
+           display: none;
         }
 
         #landing-learn-more{
             position: absolute;
             font-size: 20px;
-            width: 100%;
+            width: 100vw;
             margin-right: 175px;
             color: orange;
             bottom: 0;
@@ -123,7 +159,7 @@ a {
 
         .landing-portrait{
             height: 500px;
-            width: 400px;
+            width: 325px;
             padding-left: 50px;
             background-image: url('./IMG_5638.JPG');
             background-repeat: no-repeat;
@@ -132,19 +168,16 @@ a {
             position: absolute;
             bottom: 0;
             z-index: 0;
-        }
-
-        .arrowAnimation{
-            width: 10px;
-            background-color: white;
+            animation-name: image;
+            animation-duration:4s;
         }
 
         .arrowSliding {
             position: absolute;
             margin-left: 30px;
-            width: 5px;
+            /* width: 5px; */
             -webkit-animation: slide 4s linear infinite; 
-                    /* animation: slide 4s linear infinite; */
+                    animation: slide 4s linear infinite;
           }
           
           .delay1 {
@@ -160,6 +193,11 @@ a {
               animation-delay: 3s;
           }
 
+          @keyframes image{
+            0%   { opacity : 0; }
+            100% { opacity: 1; }
+          }
+
         @-webkit-keyframes slide {
             0% { opacity:0; transform: translateX(9vw); }  
            20% { opacity:1; transform: translateX(5vw); }   
@@ -172,5 +210,12 @@ a {
            80% { opacity:1; transform: translateX(-5vw); }  
           100% { opacity:0; transform: translateX(-9vw); } 
         }
-        
+
+        @-webkit-keyframes slide-in-left {
+        }
+        @keyframes slide-in-left {
+        }
+
+        @keyframes strike{
+        }
     }
