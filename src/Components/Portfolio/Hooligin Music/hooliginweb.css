@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.hooligin-web-container{
+    height: 100vh;
+    width: 100vw;
+    font-family: Karla;
+}
+
+#back-to-projects{
+    color: orange;
+}
+#back-to-projects:hover{
+    cursor: pointer;
+}
+
+.hooligin-web-info-container{
+    height: auto;
+    width: 50vw;
+    text-align: start;
+    word-wrap: break-word;
+    padding-left: 50px;
+}
+
+.hooligin-web-gallery{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h4 {
+    text-align: start;
+}
+
+.hooligin-web-img{
+    width: 50vw;
+    height: 50vh;
+    background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 7.05.23\ PM.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.hooligin-web-img2{
+    width: 50vw;
+    height: 50vh;
+    background-image: url('../Screen\ Shot\ 2020-09-09\ at\ 7.25.23\ PM.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.hooligin-web-img3{
+    width: 50vw;
+    height: 50vh;
+    background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 7.03.33\ PM.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.hooligin-web-img4{
+    width: 50vw;
+    height: 50vh;
+    background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 6.58.29\ PM.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.hooligin-web-img5{
+    width: 50vw;
+    height: 50vh;
+    background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 7.05.01\ PM.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.hooligin-web-img6{
+    width: 50vw;
+    height: 50vh;
+    background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 7.06.02\ PM.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#next-project{
+    margin-bottom: 20px;
+    color: orange;
+}
+
+#next-project:hover{
+    cursor: pointer;
+}
+
+  
+
+@media(max-width: 500px){
+
+    .hooligin-web-info-container{
+        height: auto;
+        width: 90vw;
+        text-align: start;
+        word-wrap: break-word;
+        padding-left: 20px;
+    }
+
+.hooligin-web-img{
+    width: 90vw;
+    height: 50vh;
+    background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 7.05.23\ PM.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.hooligin-web-img2{
+    width: 90vw;
+    height: 50vh;
+    background-image: url('../Screen\ Shot\ 2020-09-09\ at\ 7.25.23\ PM.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.hooligin-web-img3{
+    width: 90vw;
+    height: 50vh;
+    background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 7.03.33\ PM.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.hooligin-web-img4{
+    width: 90vw;
+    height: 50vh;
+    background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 6.58.29\ PM.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.hooligin-web-img5{
+    width: 90vw;
+    height: 50vh;
+    background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 7.05.01\ PM.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.hooligin-web-img6{
+    width: 90vw;
+    height: 50vh;
+    background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 7.06.02\ PM.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+}
+
+#next-project{
+    margin-bottom: 20px;
+    color: orange;
+}
