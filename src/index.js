@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {HashRouter} from 'react-router-dom'
+import {BrowserRouter, HashRouter} from 'react-router-dom'
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const Router = process.env.node_ENV === 'development' ? HashRouter : BrowserRouter;
+
 ReactDOM.render(
-  <HashRouter>
+  <Router>
   <React.StrictMode>
     <App />
   </React.StrictMode>
-  </HashRouter>,
+  </Router>,
   document.getElementById('root')
 );
 

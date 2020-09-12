@@ -12,12 +12,13 @@
 .header-name-container{
     margin-left: 10px;
     margin-top: 10px;
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     background-color: aliceblue;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 20px;
 }
 
 .header-name-container:hover{
@@ -33,7 +34,7 @@
     align-items: center;
     justify-content: space-evenly;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 20px;
     color: rgb(88, 88, 88);
     /* animation-name: strike; */
 }
@@ -111,9 +112,9 @@ label {
 
 
     .header-name-container{
-      height: 40px;
-      width: 40px;
-      margin-left: 20px;
+      height: 60px;
+      width: 60px;
+      margin-left: 10px;
     }
 
     label {

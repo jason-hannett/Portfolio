@@ -8,7 +8,7 @@ function Hooliginweb(props){
         <div className='hooligin-web-container'>
             <div className='hooligin-web-info-container'>
                 <p onClick={() => props.history.push('/portfolio')} id='back-to-projects'>back to projects</p>
-                <h2>Hooligin Web App</h2>
+                <h1>Hooligin Web App</h1>
                 <p><a href='https://hooliginmusic.com' target='_blank'>hooliginmusic.com</a> is a web application developed for fans to interact with 
                     Hooligin, keep up with his latest releases, shop merchandise and even 
                     subscribe for updates. 

@@ -22,15 +22,16 @@ function Drop(props){
                         mixed and mastered the audio, exported to .wav then finally uploaded
                         the .Mp3 to Fireside.fm for distribution on Spotify and Apple podcasts.
                     </p>
+                    <p>The DROP intro and outro music were produced entirely by Jason.</p>
                     <p>Along with The Drop Jason has produced 50+ episodes of an 
                         in-house podcast called 'Drive Time' distributed to all of
                         the Retail Smart Home Pros.
                     </p>
             </div>
-                <h2>Episodes</h2>
+                <h1>Episodes</h1>
                 <div className='the-drop-episodes-container'>
                 <div className='the-drop-episodes'>
-                <iframe id='episode'src="https://open.spotify.com/embed-podcast/episode/7zljKwNRcTNQSyyNvqTXfW" width="80%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe id='episode'src="https://open.spotify.com/embed-podcast/episode/7zljKwNRcTNQSyyNvqTXfW" width="80%" height="250" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 <iframe id='episode' src="https://open.spotify.com/embed-podcast/episode/7nSsYYkHet46in5LgiYdPB" width="80%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 <iframe id='episode' src="https://open.spotify.com/embed-podcast/episode/7vH88yShehxuXzO5uCFRp1" width="80%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                 <iframe id='episode' src="https://open.spotify.com/embed-podcast/episode/35jOUBqhVGOl22AMlNQdqm" width="80%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

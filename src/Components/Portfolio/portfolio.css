@@ -18,23 +18,38 @@
 }
 
 .portfolio-header h1{
+  font-size: 60px;
     -webkit-animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation-duration: 1.5s;
 }
 
 .hooligin-web-project{
-    width: 92vw;
-    height: 45vh;
+    width: 93vw;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     text-align: start;
+    align-items: flex-start;
     justify-content: space-evenly;
-    padding-left: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     box-shadow: 5px 10px 18px #888888;
     -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
       animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.project-specs-container{
+  margin-left: -180px;
+}
+
+#learn-more{
+  font-size: 25px;
+  margin-top: -10px;
+  color: orange;
+}
+
+#learn-more:hover{
+  cursor: pointer;
 }
 
 .hooligin-web-image-container{
@@ -95,7 +110,7 @@
 
 .the-drop-container{
     width: 90vw;
-    height: 45vh;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     text-align: start;
@@ -197,7 +212,9 @@
 
     .hooligin-web-project{
       /* width: 300px; */
-      padding-left: 150px;
+      padding-left: 350px;
+      display: flex;
+      align-items: center;
     }
 
     .hooligin-web-image-container{
@@ -206,13 +223,19 @@
       margin-left: 40px;
       margin-top: -20px;
       height: 350px;
+      padding-bottom: 20px;
     }
 
     .the-drop-container{
-      /* margin-bottom: 20px; */
+      height: auto;
+    }
+
+    .the-drop-specs-container{
+      text-align: start;
     }
 
     .the-drop-container iframe{
       display: none;
     }
+
   }

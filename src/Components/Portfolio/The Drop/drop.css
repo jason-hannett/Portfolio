@@ -6,6 +6,10 @@
     height: auto;
 }
 
+.drop-about-bio p{
+    font-size: 25px;
+}
+
 
 .the-drop-episodes{
     width: 100vw;
@@ -14,9 +18,10 @@
 
 #episode{
     box-shadow: 5px 10px 18px #888888;
-    height: 150px;
-    border-radius: 1.5%;
+    height: 153px;
+    /* border-radius: 1.5%; */
     margin-bottom: 20px;
+    background-color: rgb(49, 49, 49);
 }
 
 @media(max-width: 500px){
@@ -24,8 +29,13 @@
         width: 90vw;
     }
 
+    .drop-about-bio p{
+        font-size: 20px;
+    }
+
     #episode{
         width: 90vw;
-        height: 224px;
+        height: 152px;
+        border-radius: 3%;
     }
 }

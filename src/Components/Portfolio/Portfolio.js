@@ -20,16 +20,16 @@ function Portfolio(props){
                         <li>PostgreSQL</li>
                         <li>GitHub</li>
                     </ul>
-                    <p onClick={() => props.history.push('/hooligin-music')} id='next-project'>Learn more></p>
+                    <p onClick={() => props.history.push('/hooligin-music')} id='learn-more'>Learn more></p>
                 </div>
                 <div className='hooligin-web-image-container'>
                     <div className='hooligin-web-image'></div>
                     <div className='hooligin-web-image2'></div>
                     <div className='hooligin-web-image3'></div>
-                    </div>
+                </div>
             </div>
             <div className='the-drop-container'>
-                <div className='project-specs-container'>
+                <div >
                     <h2>The Drop Podcast</h2>
                     <p>technologies</p>
                         <ul>
@@ -41,7 +41,7 @@ function Portfolio(props){
                         </ul>
                         <p onClick={() => props.history.push('/the-drop')} id='next-project'>Learn more></p>
                  </div>   
-                        <iframe src="https://open.spotify.com/embed-podcast/show/6By6iGJKh6kaRoG40br5T4" width="70%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        <iframe src="https://open.spotify.com/embed-podcast/show/6By6iGJKh6kaRoG40br5T4" width="80%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
         </div>
     )

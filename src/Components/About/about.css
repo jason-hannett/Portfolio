@@ -9,10 +9,19 @@
     font-family: Karla;
 }
 
+.about-header{
+    font-size: 50px;
+    font-weight: 600;
+}
+
 .about-bio{
     height: 400px;
-    width: 500px;
+    width: 900px;
     text-align: start;
+}
+
+.about-bio p{
+    font-size: 25px;
 }
 
 .about-bio span{
@@ -27,9 +36,6 @@
     color: rgb(26,215,96);
 }
 
-/* #the-drop-link{
-    color: rgb(255, 64, 96);
-} */
 
 #github-link{
     color: rgb(90,86,214);
@@ -38,7 +44,8 @@
 #view-my-work{
     position: absolute;
     color: orange;
-    margin-top: 30px;
+    margin-top: 200px;
+    font-size: 25px;
 }
 
 #view-my-work{
@@ -55,6 +62,7 @@
         height: auto;
         width: 100vw;
         padding-left: 5px;
+        /* margin-top: -40px; */
         font-family: Karla;
         animation-name: about-page-load;
         animation-duration: 4s;
@@ -66,6 +74,11 @@
         word-wrap: break-word;
         /* padding-right: 25px; */
         overflow: scroll;
+        margin-bottom: 0px;
+    }
+
+    .about-header{
+        font-size: 30px;
     }
 
     .about-bio p{
@@ -84,7 +97,9 @@
         text-align: center;
         width: 100vw;
         margin-top: -0px;
+        margin-bottom: 20px;
         font-size: 20px;
+        font-weight: 500;
     }
 
     @keyframes about-page-load{

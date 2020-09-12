@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 .hooligin-web-container{
-    height: 100vh;
+    height: auto;
     width: 100vw;
     font-family: Karla;
 }
 
 #back-to-projects{
     color: orange;
+    font-weight: 600;
 }
 #back-to-projects:hover{
     cursor: pointer;
@@ -20,6 +21,14 @@
     word-wrap: break-word;
     padding-left: 50px;
 }
+
+.hooligin-web-info-container p{
+    font-size: 25px;
+}
+
+/* .hooligin-web-info-container h2{
+    font-size: 45px;
+} */
 
 .hooligin-web-gallery{
     width: 100vw;
@@ -35,58 +44,58 @@ h4 {
 }
 
 .hooligin-web-img{
-    width: 50vw;
-    height: 50vh;
+    width: 80vw;
+    height: 80vh;
     background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 7.05.23\ PM.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     box-shadow: 5px 10px 18px #888888;
 }
 .hooligin-web-img2{
-    width: 50vw;
-    height: 50vh;
+    width: 80vw;
+    height: 80vh;
     background-image: url('../Screen\ Shot\ 2020-09-09\ at\ 7.25.23\ PM.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     box-shadow: 5px 10px 18px #888888;
 }
 .hooligin-web-img3{
-    width: 50vw;
-    height: 50vh;
+    width: 80vw;
+    height: 80vh;
     background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 7.03.33\ PM.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     box-shadow: 5px 10px 18px #888888;
 }
 
 .hooligin-web-img4{
-    width: 50vw;
-    height: 50vh;
+    width: 80vw;
+    height: 80vh;
     background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 6.58.29\ PM.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     box-shadow: 5px 10px 18px #888888;
 }
 
 .hooligin-web-img5{
-    width: 50vw;
-    height: 50vh;
+    width: 80vw;
+    height: 80vh;
     background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 7.05.01\ PM.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     box-shadow: 5px 10px 18px #888888;
 }
 
 .hooligin-web-img6{
-    width: 50vw;
-    height: 50vh;
+    width: 80vw;
+    height: 80vh;
     background-image: url('../Screen\ Shot\ 2020-09-10\ at\ 7.06.02\ PM.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 20px;
     box-shadow: 5px 10px 18px #888888;
@@ -95,6 +104,8 @@ h4 {
 #next-project{
     margin-bottom: 20px;
     color: orange;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 #next-project:hover{
@@ -111,6 +122,10 @@ h4 {
         text-align: start;
         word-wrap: break-word;
         padding-left: 20px;
+    }
+
+    .hooligin-web-info-container p{
+        font-size: 20px;
     }
 
 .hooligin-web-img{
