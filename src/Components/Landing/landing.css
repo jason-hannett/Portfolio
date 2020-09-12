@@ -162,7 +162,6 @@ a {
 
         .landing-title{
             font-size: 35px;
-            /* padding-top: 30px; */
             padding-bottom: 50px;
         }
 
@@ -175,7 +174,6 @@ a {
             position: absolute;
             font-size: 20px;
             width: 100vw;
-            /* margin-right: 175px; */
             margin-left: -20px;
             color: orange;
             bottom: 0;
@@ -200,7 +198,6 @@ a {
         .arrowSliding {
             position: absolute;
             margin-left: 30px;
-            /* width: 5px; */
             -webkit-animation: slide 4s linear infinite; 
                     animation: slide 4s linear infinite;
           }
@@ -243,4 +240,13 @@ a {
 
         @keyframes strike{
         }
+
+        @-webkit-keyframes slide-right {
+
+        }
+        @keyframes slide-right {
+
+        }
+
     }
+
