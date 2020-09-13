@@ -110,7 +110,7 @@
 
 .the-drop-container{
     width: 90vw;
-    height: 70vh;
+    height: 33vh;
     display: flex;
     flex-direction: row;
     text-align: start;
@@ -227,7 +227,7 @@
     }
 
     .the-drop-container{
-      height: auto;
+      height: 40vh;
     }
 
     .the-drop-specs-container{

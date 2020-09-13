@@ -110,6 +110,15 @@ label {
 
   @media(max-width: 500px){
 
+    .header-container{
+      height: auto;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Karla;
+    }
+
 
     .header-name-container{
       height: 60px;
@@ -138,10 +147,16 @@ label {
       #toggle:checked ~ .header-nav-links h3{
         display: block;
       }
-  }
 
-  h3:hover::after {
-  }
+      h3:hover::after {
+      }
+    
+      @keyframes strike{
+      }
 
-  @keyframes strike{
+      @-webkit-keyframes shadow-pop-tl {
+      }
+      @keyframes shadow-pop-tl {
+      }
+
   }
