@@ -39,7 +39,7 @@ function Portfolio(props){
                             <li>Fireside.fm</li>
                             <li>Transistor</li>
                         </ul>
-                        <p onClick={() => props.history.push('/the-drop')} id='next-project'>Learn more></p>
+                        <p onClick={() => props.history.push('/the-drop')} id='learn-more'>Learn more></p>
                  </div>   
                         <iframe src="https://open.spotify.com/embed-podcast/show/6By6iGJKh6kaRoG40br5T4" width="80%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
