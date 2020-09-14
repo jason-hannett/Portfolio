@@ -62,7 +62,7 @@
         height: auto;
         width: 100vw;
         padding-left: 5px;
-        /* margin-top: -40px; */
+        padding-bottom: 40px;
         font-family: Karla;
         animation-name: about-page-load;
         animation-duration: 4s;
@@ -96,10 +96,11 @@
     #view-my-work{
         text-align: center;
         width: 100vw;
-        margin-top: -0px;
-        margin-bottom: 20px;
+        height: 80px;
+        margin-top: 20px;
+        margin-bottom: 40px;
         font-size: 20px;
-        font-weight: 500;
+        font-weight: 600;
     }
 
     @keyframes about-page-load{

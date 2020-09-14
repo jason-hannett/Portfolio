@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter, HashRouter} from 'react-router-dom'
+import ScrollToTop from './ScrollToTop'
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -9,6 +10,7 @@ const Router = process.env.node_ENV === 'development' ? HashRouter : BrowserRout
 
 ReactDOM.render(
   <Router>
+    <ScrollToTop/>
   <React.StrictMode>
     <App />
   </React.StrictMode>
