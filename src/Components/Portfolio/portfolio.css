@@ -36,10 +36,11 @@
     box-shadow: 5px 10px 18px #888888;
     -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
       animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    contain: content;
 }
 
 .project-specs-container{
-  margin-left: -180px;
+  margin-left: -60px;
 }
 
 #learn-more{
@@ -121,6 +122,7 @@
   box-shadow: 5px 10px 18px #888888;
   -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    contain: content;
 }
 
 #next-project{
@@ -212,17 +214,18 @@
 
     .hooligin-web-project{
       height: auto;
+      contain: content;
     }
 
     .project-specs-container{
       height: auto;
-      width: 90vw;
+      /* width:90vw; */
       text-align: start;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      padding-left: 150px;
+      padding-left: 50px;
     }
     
     .hooligin-web-image-container{
@@ -233,6 +236,7 @@
 
     .the-drop-container{
       height: auto;
+      contain: content;
     }
 
     .the-drop-specs-container{
