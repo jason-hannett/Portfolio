@@ -29,7 +29,7 @@ function Portfolio(props){
                 </div>
             </div>
             <div className='the-drop-container'>
-                <div className='the-drop-specs-container'>
+                <div >
                     <h2>The Drop Podcast</h2>
                     <p>technologies</p>
                         <ul>
