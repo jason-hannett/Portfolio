@@ -6,8 +6,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* margin-bottom: 0px; */
-  /* overflow: hidden; */
+  font-family: Karla;
 }
 
 .landing-about-container{
@@ -34,6 +33,25 @@
   z-index: 1;
 }
 
+.arrowSliding {
+  position: relative;
+  -webkit-animation: slide 4s linear infinite;
+  animation: slide 4s linear infinite;
+}
+
+.delay1 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.delay2 {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.delay3 {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
 .landing-portrait{
   background-image: url("./IMG_5638.JPG");
   background-size: cover;
@@ -45,6 +63,104 @@
 }
 
 @media(min-width: 450px){
+  .landing-portrait{
+    background-repeat: no-repeat;
+    background-size: stretch;
+    background-position: top;
+    height: 700px;
+    width: 100vw;
+  }
+  
+  #landing-learn-more{
+    font-size: 40px;
+  }
+}
+
+@media(min-width: 900px){
+  #landing-learn-more{
+    font-size: 30px;
+    top: 0;
+    margin-top: 250px;
+  }
+}
+
+@media(min-width: 1000px){
+  .landing-container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .landing-about-container{
+    line-height: 20px;
+    margin-left: 80px;
+    margin-top: 175px;
+  }
+  
+  .landing-name{
+    font-size: 60px;
+  }
+  
+  .landing-title{
+    font-size: 60px;
+  }
+  
+  .landing-about{
+    display: block;
+  }
+  
+  #landing-learn-more{
+    font-size: 30px;
+    color: orange;
+    margin-left: 260px;
+    margin-top: 575px;
+  }
+
+  #landing-learn-more:hover{
+    cursor: pointer;
+  }
+
+  .landing-portrait{
+    height: 600px;
+    width: 50vw;
+    right: 0;
+  }
+}
+
+@media(min-width: 1200px){
+  
+  .landing-container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .landing-about-container{
+    line-height: 20px;
+    margin-left: 250px;
+    margin-top: 175px;
+  }
+  
+  .landing-about{
+    display: block;
+    font-size: 20px;
+  }
+  
+  #landing-learn-more{
+    color: orange;
+    margin-left: 450px;
+    margin-top: 575px;
+  }
+
+  #landing-learn-more:hover{
+    cursor: pointer;
+  }
+
+  .landing-portrait{
+    height: 600px;
+    width:40vw;
+    right: 0;
+  }
 
 }
 
