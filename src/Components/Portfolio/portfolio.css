@@ -212,6 +212,13 @@
 
   @media only screen and (max-width: 500px){
 
+    .portfolio-header{
+      width: 100vw;
+      /* height: 45vh; */
+      margin-top: 0px;
+      margin-bottom: 60px;
+    }
+    
     .hooligin-web-project{
       height: auto;
       contain: content;
