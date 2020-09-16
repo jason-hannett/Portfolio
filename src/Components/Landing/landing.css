@@ -3,10 +3,11 @@
 .landing-container{
   height: 90vh;
   width: 100vw;
-  /* background-color: black; */
   display: flex;
   align-items: center;
   flex-direction: column;
+  /* margin-bottom: 0px; */
+  /* overflow: hidden; */
 }
 
 .landing-about-container{
@@ -37,7 +38,7 @@
   background-image: url("./IMG_5638.JPG");
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 410px;
   width: 100vw;
   position: absolute;
   bottom: 0;
