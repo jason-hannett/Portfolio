@@ -109,5 +109,9 @@
       font-weight: 700;
     }
 
+    .contact-container h1{
+      display: none;
+    }
+
   }
   

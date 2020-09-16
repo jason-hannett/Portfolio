@@ -22,7 +22,7 @@ function Contact(props){
                     <img src='/icons/resume-icon-png-15.png' height='95px'/>
                 </a>     
             </div>
-            <h1 class='animate__animated animate__bounce'>contact me</h1>
+            <h1>contact me</h1>
         </div>
     )
 }
