@@ -111,7 +111,7 @@
 
 /* IPAD QUERIE */
 
-@media(max-width: 768px){
+@media(max-width: 1000px){
     .about-container{
         height: auto;
         width: 100vw;
