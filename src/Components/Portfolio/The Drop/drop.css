@@ -24,6 +24,23 @@
     background-color: rgb(49, 49, 49);
 }
 
+/* IPAD QUERIE  */
+
+@media(max-width: 1000px){
+    
+    .drop-about-bio{
+        width: 90vw;
+    }
+
+    #episode{
+        width: 90vw;
+        height: 152px;
+        border-radius: 3%;
+    }
+}
+
+/* IPHONE QUERIE */
+
 @media(max-width: 500px){
     .drop-about-bio{
         width: 90vw;
@@ -40,17 +57,3 @@
     }
 }
 
-/* IPAD QUERIE  */
-
-@media(max-width: 1000px){
-    
-    .drop-about-bio{
-        width: 90vw;
-    }
-
-    #episode{
-        width: 90vw;
-        height: 152px;
-        border-radius: 3%;
-    }
-}

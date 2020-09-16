@@ -182,78 +182,6 @@
     }
   }
 
-  @media only screen and (max-width: 500px){
-    .portfolio-container{
-      height: 90vh;
-      width: 100vw;
-      font-family: Karla;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      overflow: scroll;
-    }
-    .portfolio-header{
-      width: 100vw;
-      /* height: 45vh; */
-      margin-top: 0px;
-      margin-bottom: 60px;
-    }
-    
-    .hooligin-web-project{
-      width: 93vw;
-      height: 300px;
-      display: flex;
-      flex-direction: row;
-      text-align: start;
-      align-items: center;
-      justify-content: space-evenly;
-      margin-bottom: 40px;
-      box-shadow: 5px 10px 18px #888888;
-      -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-      box-sizing: border-box;
-  }
-
-    .project-specs-container{
-      height: 600px;
-      width:90vw;
-      text-align: start;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      padding-left: 50px;
-    }
-    
-    .hooligin-web-image-container{
-      display: none;
-
-    }
-    
-
-    .the-drop-container{
-      width: 93vw;
-      height: 500px;
-      display: flex;
-      flex-direction: row;
-      text-align: start;
-      align-items: flex-start;
-      justify-content: space-evenly;
-      margin-bottom: 40px;
-      box-shadow: 5px 10px 18px #888888;
-      -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        contain: content;
-        box-sizing: border-box;
-    }
-
-
-    .the-drop-container iframe{
-      display: none;
-    }
-
-  }
-
   /* IPAD QUERIE */
 
   @media(max-width: 1000px){
@@ -341,9 +269,84 @@
   }
   
   
-  
   .the-drop-container iframe{
       margin-left: 40px;
       margin-top: 50px;
   }
   }
+
+  /* IPHONE QUERIE */
+
+  @media(max-width: 500px){
+    .portfolio-container{
+      height: 90vh;
+      width: 100vw;
+      font-family: Karla;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      overflow: scroll;
+    }
+    .portfolio-header{
+      width: 100vw;
+      /* height: 45vh; */
+      margin-top: 0px;
+      margin-bottom: 60px;
+    }
+    
+    .hooligin-web-project{
+      width: 93vw;
+      height: 300px;
+      display: flex;
+      flex-direction: row;
+      text-align: start;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-bottom: 40px;
+      box-shadow: 5px 10px 18px #888888;
+      -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      box-sizing: border-box;
+  }
+
+    .project-specs-container{
+      height: 600px;
+      width:90vw;
+      text-align: start;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding-left: 50px;
+    }
+    
+    .hooligin-web-image-container{
+      display: none;
+
+    }
+    
+
+    .the-drop-container{
+      width: 93vw;
+      height: 500px;
+      display: flex;
+      flex-direction: row;
+      text-align: start;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      margin-bottom: 40px;
+      box-shadow: 5px 10px 18px #888888;
+      -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        contain: content;
+        box-sizing: border-box;
+    }
+
+
+    .the-drop-container iframe{
+      display: none;
+    }
+
+  }
+
+  
