@@ -16,13 +16,13 @@ function Landing(props){
             <br/>
             <br/>
             </p>
+        </div>
             <p id='landing-learn-more' onClick={() => props.history.push('/about')}>About me
                     <span className='arrowSliding'><span className='arrow'>></span></span>
                     <span className='arrowSliding delay1'><span className='arrow'>></span></span>
                     <span className='arrowSliding delay2'><span className='arrow'>></span></span>
                     <span className='arrowSliding delay3'><span className='arrow'>></span></span>   
             </p> 
-        </div>
             <div className='landing-portrait'> </div>
         </div>
     )

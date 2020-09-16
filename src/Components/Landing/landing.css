@@ -1,82 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 
-.landing-container {
+.landing-container{
   height: 90vh;
   width: 100vw;
+  /* background-color: black; */
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  font-family: Karla;
+  flex-direction: column;
 }
 
-.landing-portrait {
-  height: 750px;
-  width: 600px;
-  background-color: aliceblue;
+.landing-about-container{
+  line-height: 20px;
+}
+
+.landing-name{
+  font-size: 40px;
+}
+
+.landing-title{
+  font-size: 40px;
+}
+
+.landing-about{
+  display: none;
+}
+
+#landing-learn-more{
+  font-size: 20px;
+  position: absolute;
+  color: orange;
+  bottom: 0;
+  z-index: 1;
+}
+
+.landing-portrait{
   background-image: url("./IMG_5638.JPG");
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-right: 50;
-  margin-top: 320px;
-  animation-name: image;
-  animation-duration: 4s;
+  height: 500px;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
 }
 
-.landing-about-container {
-  height: auto;
-  width: 60vw;
-  margin-right: -25px;
-  margin-top: -80px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  background-color: white;
-  word-wrap: break-word;
-  /* -webkit-animation: slide-in-left 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-in-left 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; */
-}
-.landing-name {
-  font-size: 60px;
-}
+@media(min-width: 450px){
 
-.landing-title {
-  font-size: 80px;
-  height: 0px;
-  margin-top: -25px;
-}
-
-.landing-about {
-  height: auto;
-  width: 40vw;
-  margin-top: 30px;
-  flex-wrap: wrap;
-  margin-right: 50px;
-  font-size: 25px;
-}
-
-#landing-learn-more {
-  width: 200px;
-  margin-left: 250px;
-  font-weight: 500;
-  font-size: 25px;
-}
-
-#landing-learn-more:hover {
-  cursor: pointer;
-  color: orange;
-}
-
-#landing-learn-more:active {
-  cursor: pointer;
-  -webkit-animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-a {
-  text-decoration: none;
-  color: orange;
 }
 
 @-webkit-keyframes slide-in-left {
@@ -149,218 +117,39 @@ a {
   }
 }
 
-/* IPAD QUERIE */
-
-@media(max-width: 1024px){
-
-  .landing-container {
-    height: 90vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Karla;
-    overflow: hidden;
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateX(9vw);
   }
-
-  .landing-portrait {
-    height: 700px;
-    width: 100vw;
-    background-image: url("./IMG_5638.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    position: absolute;
-    bottom: 0;
-    animation-name: image;
-    animation-duration: 4s;
-    z-index: 1;
+  20% {
+    opacity: 1;
+    transform: translateX(5vw);
   }
-
-  .landing-about-container {
-    height: 200px;
-    width: 100vw;
-    line-height: 40px;
-    margin-top: -690px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: none;
-    word-wrap: break-word;
+  80% {
+    opacity: 1;
+    transform: translateX(-5vw);
   }
-  .landing-name {
-    font-size: 60px;
-  }
-  
-  .landing-title {
-    font-size: 80px;
-    height: 0px;
-    margin-top: -25px;
-  }
-  
-  .landing-about {
-    display: none;
-  }
-  
-  #landing-learn-more {
-    width: 200px;
-    color: orange;
-    font-weight: 500;
-    font-size: 25px;
-    margin-top: -10px;
-    margin-right: 300px
+  100% {
+    opacity: 0;
+    transform: translateX(-9vw);
   }
 }
-
-/* IPHONE QUERIE  */
-
-@media (max-width: 500px) {
-  .landing-container {
-    display: block;
-    height: 70vh;
-    width: 100vw;
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateX(9vw);
   }
-
-  .landing-about-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 400px;
-    margin-top: -80px;
+  20% {
+    opacity: 1;
+    transform: translateX(5vw);
   }
-
-  .landing-name {
-    font-size: 50px;
-    /* margin-top: 50px; */
-
+  80% {
+    opacity: 1;
+    transform: translateX(-5vw);
   }
-
-  .landing-title {
-    font-size: 35px;
-    /* padding-bottom: 50px; */
-  }
-
-  .landing-about {
-    width: 300px;
-    display: none;
-  }
-
-  #landing-learn-more {
-    position: absolute;
-    font-size: 20px;
-    width: 100vw;
-    color: orange;
-    bottom: 0;
-    z-index: 1;
-  }
-
-  .landing-portrait {
-    height: 500px;
-    width: 325px;
-    padding-left: 50px;
-    background-image: url("./IMG_5638.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    bottom: 0;
-    z-index: 0;
-    animation-name: image;
-    animation-duration: 4s;
-  }
-
-  .arrowSliding {
-    position: absolute;
-    margin-left: 30px;
-    -webkit-animation: slide 4s linear infinite;
-    animation: slide 4s linear infinite;
-  }
-
-  .delay1 {
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-  }
-  .delay2 {
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-  }
-  .delay3 {
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;
-  }
-
-  @keyframes image {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      transform: translateX(9vw);
-    }
-    20% {
-      opacity: 1;
-      transform: translateX(5vw);
-    }
-    80% {
-      opacity: 1;
-      transform: translateX(-5vw);
-    }
-    100% {
-      opacity: 0;
-      transform: translateX(-9vw);
-    }
-  }
-  @keyframes slide {
-    0% {
-      opacity: 0;
-      transform: translateX(9vw);
-    }
-    20% {
-      opacity: 1;
-      transform: translateX(5vw);
-    }
-    80% {
-      opacity: 1;
-      transform: translateX(-5vw);
-    }
-    100% {
-      opacity: 0;
-      transform: translateX(-9vw);
-    }
-  }
-
-  @-webkit-keyframes slide-in-left {
-    0% {
-      -webkit-transform: translateX(-1000px);
-      transform: translateX(-1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  @keyframes slide-in-left {
-    0% {
-      -webkit-transform: translateX(-1000px);
-      transform: translateX(-1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-      transform: translateX(0);
-      opacity: 1;
-    }
+  100% {
+    opacity: 0;
+    transform: translateX(-9vw);
   }
 }
-
-
