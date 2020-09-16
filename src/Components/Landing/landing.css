@@ -33,7 +33,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   background-color: white;
-  flex-wrap: wrap;
+  word-wrap: break-word;
   /* -webkit-animation: slide-in-left 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-in-left 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; */
 }
@@ -336,7 +336,7 @@ a {
     align-items: center;
     justify-content: flex-start;
     background-color: none;
-    flex-wrap: wrap;
+    word-wrap: break-word;
     z-index: 0;
   }
   .landing-name {
