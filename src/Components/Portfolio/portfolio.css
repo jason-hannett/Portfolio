@@ -183,7 +183,14 @@
   }
 
   @media only screen and (max-width: 500px){
-
+    .portfolio-container{
+      height: 90vh;
+      width: 100vw;
+      font-family: Karla;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
     .portfolio-header{
       width: 100vw;
       /* height: 45vh; */
