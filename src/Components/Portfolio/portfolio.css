@@ -190,6 +190,7 @@
       display: flex;
       align-items: center;
       flex-direction: column;
+      overflow: scroll;
     }
     .portfolio-header{
       width: 100vw;
