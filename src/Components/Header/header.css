@@ -131,6 +131,7 @@ label {
       cursor: pointer;
       margin-right: 20px;
     }
+
     .header-nav-links{
       text-align: center;
       width: 100%;
@@ -159,4 +160,17 @@ label {
       @keyframes shadow-pop-tl {
       }
 
+  }
+
+  /* IPAD QUERIE */
+
+  @media(max-width: 768px){
+    .header-nav-links{
+      display: none;
+    }
+
+    label {
+      display: block;
+      margin-right: 20px;
+    }
   }

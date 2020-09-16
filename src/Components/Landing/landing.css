@@ -297,3 +297,68 @@ a {
     }
   }
 }
+
+/* IPAD QUERIE */
+
+@media(max-width: 768px){
+
+  .landing-container {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Karla;
+    overflow: hidden;
+  }
+
+  .landing-portrait {
+    height: 750px;
+    width: 100vw;
+    background-image: url("./IMG_5638.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    bottom: 0;
+    animation-name: image;
+    animation-duration: 4s;
+    z-index: 1;
+  }
+
+  .landing-about-container {
+    height: 300px;
+    width: 100vw;
+    line-height: 40px;
+    margin-top: -700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: none;
+    flex-wrap: wrap;
+    z-index: 0;
+  }
+  .landing-name {
+    font-size: 60px;
+  }
+  
+  .landing-title {
+    font-size: 80px;
+    height: 0px;
+    margin-top: -25px;
+  }
+  
+  .landing-about {
+    display: none;
+  }
+  
+  #landing-learn-more {
+    width: 200px;
+    color: orange;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: -10px;
+    margin-right: 300px
+  }
+}

@@ -67,12 +67,12 @@
         animation-name: about-page-load;
         animation-duration: 4s;
     }
+
     .about-bio{
         height: auto;
         width: 370px;
         text-align: start;
         word-wrap: break-word;
-        /* padding-right: 25px; */
         overflow: scroll;
         margin-bottom: 0px;
     }
@@ -106,5 +106,36 @@
     @keyframes about-page-load{
         0% {opacity: 0;}
         100% {opacity: 1;}
+    }
+}
+
+/* IPAD QUERIE */
+
+@media(max-width: 768px){
+    .about-container{
+        height: auto;
+        width: 100vw;
+        padding-left: 5px;
+        padding-bottom: 40px;
+        font-family: Karla;
+        animation-name: about-page-load;
+        animation-duration: 4s;
+        /* overflow: hidden; */
+    }
+
+    .about-bio{
+        height: auto;
+        width: 90vw;
+        text-align: start;
+        word-wrap: break-word;
+        margin-bottom: 0px;
+        margin-left: 40px;
+    }
+
+    #view-my-work{
+        margin-top: 30px;
+        width: 100vw;
+        height: 250px;
+        text-align: center;
     }
 }

@@ -253,3 +253,97 @@
     }
 
   }
+
+  /* IPAD QUERIE */
+
+  @media(max-width: 768px){
+    .portfolio-container{
+      height: 90vh;
+      width: 100vw;
+      font-family: Karla;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      overflow: scroll;
+  }
+  
+  
+  .hooligin-web-project{
+      width: 93vw;
+      height: 70vh;
+      display: flex;
+      flex-direction: row;
+      text-align: start;
+      align-items: flex-start;
+      justify-content: space-evenly;
+      margin-bottom: 40px;
+      box-shadow: 5px 10px 18px #888888;
+      -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      contain: content;
+  }
+  
+  .project-specs-container{
+    margin-left: -60px;
+  }
+  
+  #learn-more{
+    font-size: 25px;
+    margin-top: -10px;
+    color: orange;
+    font-weight: 600;
+  }
+  
+  
+  .hooligin-web-image-container{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .hooligin-web-image{
+      height: 250px;
+      width: 250px;
+      background-image: url('./Screen\ Shot\ 2020-09-09\ at\ 7.25.23\ PM.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-right: 20px;
+      margin-top: 50px;
+  }
+  
+  
+  .hooligin-web-image2{
+      display: none;
+  }
+  
+  
+  .hooligin-web-image3{
+      display: none;
+  }
+  
+  
+  .the-drop-container{
+    width: 93vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    box-shadow: 5px 10px 18px #888888;
+    -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      contain: content;
+  }
+  
+  #next-project{
+    margin-bottom: 20px;
+    color: orange;
+  }
+  
+  
+  
+  .the-drop-container iframe{
+      margin-left: 40px;
+      margin-top: 50px;
+  }
+  }

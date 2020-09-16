@@ -118,3 +118,23 @@
     @keyframes slide-in-left {
     }
 }
+
+/* IPAD QUERIE  */
+
+@media(max-width: 768px){
+  .music-container{
+    overflow: scroll;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.music-container iframe{
+    margin-top: 20px;
+    width: 550px;
+    height: 600px;
+    -webkit-animation: slide-in-bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: slide-in-bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+}
