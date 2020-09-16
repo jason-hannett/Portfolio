@@ -98,8 +98,10 @@
       display: flex;
       flex-wrap: wrap;
       align-items: center;
+      flex-direction: column;
       width: 210px;
-      height: 200px;
+      height: 600px;
+      margin-bottom: 80px;
     }
 
     .contact-container h1{
