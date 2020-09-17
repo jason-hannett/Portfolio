@@ -17,7 +17,7 @@
 
 .porfolio-project-container{
   width: 90vw;
-  height: 275px;
+  height: auto;
   text-align: start;
   display: flex;
   align-items: center;
@@ -34,6 +34,10 @@
 #learn-more{
   color: orange;
   font-weight: 600;
+}
+
+#learn-more:hover{
+  cursor: pointer;
 }
 
 .portfolio-container iframe{
