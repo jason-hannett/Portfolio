@@ -11,6 +11,8 @@
 
 .portfolio-header{
   margin: 0px 0px 50px;
+  -webkit-animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	  animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .porfolio-project-container{
@@ -21,6 +23,8 @@
   align-items: center;
   margin-bottom: 20px;
   box-shadow: 5px 10px 18px #888888;
+  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	  animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .project-specs-container{
@@ -30,10 +34,99 @@
 #learn-more{
   color: orange;
   font-weight: 600;
+  font-size: 25px;
 }
 
 .portfolio-container iframe{
   display: none;
+}
+
+
+@media(min-width: 600px){
+
+  .portfolio-header{
+    margin: 40px 0px 60px;
+  }
+
+  .porfolio-project-container{
+    margin-bottom: 40px;
+  }
+
+  .hooligin-web-image{
+    background-image: url('./Screen\ Shot\ 2020-09-09\ at\ 7.25.23\ PM.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid grey; */
+    box-shadow: 5px 10px 18px #888888;
+    height: 225px;
+    width: 225px;
+    margin: 0px 20px 0px;
+  }
+
+  .portfolio-container iframe{
+    display: flex;
+    margin: 50px 20px 0px;
+    flex: 2;
+  }
+}
+
+@media(min-width: 900px){
+
+
+  .hooligin-web-image-container{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hooligin-web-image2{
+    background-image: url('./Screen\ Shot\ 2020-09-10\ at\ 7.03.33\ PM.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid grey; */
+    box-shadow: 5px 10px 18px #888888;
+    height: 225px;
+    width: 225px;
+    margin: 0px 20px 0px;
+  }
+}
+
+@media(min-width: 1200px){
+
+  .portfolio-header{
+    font-size: 30px;
+  }
+
+  .hooligin-web-image3{
+    background-image: url('./Screen\ Shot\ 2020-09-10\ at\ 7.05.23\ PM.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid grey; */
+    box-shadow: 5px 10px 18px #888888;
+    height: 225px;
+    width: 225px;
+    margin: 0px 20px 0px;
+  }
+}
+
+@media(min-width: 1500px){
+  .hooligin-web-image-container{
+    margin-left: 75px;
+  }
+
+  .hooligin-web-image4{
+    background-image: url('./Screen\ Shot\ 2020-09-10\ at\ 7.06.02\ PM.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid grey; */
+    box-shadow: 5px 10px 18px #888888;
+    height: 225px;
+    width: 225px;
+    margin: 0px 20px 0px;
+  }
 }
 
   @-webkit-keyframes focus-in-expand-fwd {

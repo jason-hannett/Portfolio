@@ -10,8 +10,8 @@ function Portfolio(props){
             </div>
             <div className='porfolio-project-container'>
                 <div className='project-specs-container'>
-                    <h2>Hooligin Music</h2>
-                    <p>built using..</p>
+                    <h2>Hooligin Music Web App</h2>
+                    <p>technologies</p>
                     <ul>
                         <li>React</li>
                         <li>Redux</li>
@@ -26,6 +26,7 @@ function Portfolio(props){
                     <div className='hooligin-web-image'></div>
                     <div className='hooligin-web-image2'></div>
                     <div className='hooligin-web-image3'></div>
+                    <div className='hooligin-web-image4'></div>
                 </div>
             </div>
             <div className='porfolio-project-container'>
