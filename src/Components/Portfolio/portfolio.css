@@ -34,7 +34,6 @@
 #learn-more{
   color: orange;
   font-weight: 600;
-  font-size: 25px;
 }
 
 .portfolio-container iframe{
@@ -68,6 +67,10 @@
     display: flex;
     margin: 50px 20px 0px;
     flex: 2;
+  }
+
+  #learn-more{
+    font-size: 25px;
   }
 }
 
