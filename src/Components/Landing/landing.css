@@ -60,6 +60,8 @@
   width: 100vw;
   position: absolute;
   bottom: 0;
+  animation-name: image;
+  animation-duration: 4s;
 }
 
 @media(min-width: 450px){
