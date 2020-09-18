@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 
 .landing-container{
-  height: 90vh;
+  /* height: 90vh; */
   width: 100vw;
   display: flex;
   align-items: center;
@@ -61,9 +61,10 @@
   background-image: url("./IMG_5638.JPG");
   background-size: cover;
   background-position: center;
-  height: 410px;
+  height: 500px;
   width: 100vw;
-  position: absolute;
+  /* margin-top: 100px; */
+  position: fixed;
   bottom: 0;
   animation-name: image;
   animation-duration: 4s;
@@ -74,6 +75,7 @@
     background-repeat: no-repeat;
     background-size: stretch;
     background-position: top;
+    /* position: relative; */
     height: 700px;
     width: 100vw;
   }

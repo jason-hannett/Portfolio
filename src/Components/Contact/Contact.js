@@ -19,7 +19,7 @@ function Contact(props){
                     <img src='/icons/icon-email-512.png' height='95px'/>
                 </a>     
                 <a href='https://docs.google.com/document/d/1OmeUFo-hmRMjtD3Ehck_baXfJGrOlVtGDRUZkxVnKRE/edit' target='_blank'>
-                    <img src='/icons/resume-icon-png-15.png' height='95px'/>
+                    <img src='/icons/resume.png' height='95px'/>
                 </a>     
             </div>
             <h1>contact me</h1>
