@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 .contact-container{
-    height: 90vh;
+    /* height: 90vh; */
     width: 100vw;
     display: flex;
+    position: sticky;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -11,61 +12,39 @@
 }
 
 .icon-container{
-    display: flex;
-    height: 50px;
-    width: 550px;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 300px;
+  width: 200px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon-container img{
-    -webkit-animation: roll-in-left 1s ease-out both;
-	        animation: roll-in-left 1s ease-out both;
+  -webkit-animation: roll-in-left 1s ease-out both;
+    animation: roll-in-left 1s ease-out both;
 }
 
 .contact-container h1{
-    /* transform: rotate(270deg); */
-    /* position: absolute; */
-    /* bottom: 0; */
-    margin-top: 300px;
-    font-size: 60px;
-    font-weight: 300;
-    -webkit-animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-      animation: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-      animation-delay: 0.5s;
+  animation-delay: 14s;
+  animation-duration: 4s;
+  -webkit-animation: slide-in-bottom 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	  animation: slide-in-bottom 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-.contact-container img:hover{
-    cursor: pointer;
-}
+@media(min-width: 500px){
 
-  @media(max-width: 500px){
-
-    .contact-container{
-      display: flex;
-      align-items: center;
-    }
-
-    .icon-container{
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      flex-direction: column;
-      width: 210px;
-      height: 600px;
-      margin-bottom: 300px;
-    }
-
-    .contact-container h1{
-      font-size: 30px;
-      font-weight: 700;
-    }
-
-    .contact-container h1{
-      display: none;
-    }
+  .contact-container{
+    height: 90vh;
   }
+  
+  .icon-container{
+    width: 600px;
+    height: 200px;
+    flex-direction: row;
+    flex: 2;
+  }
+}
 
   @-webkit-keyframes roll-in-left {
     0% {

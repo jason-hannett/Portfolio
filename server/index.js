@@ -3,7 +3,6 @@ require('dotenv').config();
 const express = require('express'),
      {SERVER_PORT} = process.env,
      cors = require('cors'),
-     ctrl = require('./controller'),
      path = require('path'),
      port = SERVER_PORT,
      app = express();
